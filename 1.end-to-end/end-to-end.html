@@ -19,6 +19,13 @@
     console.log(number,'명 입력받았습니다');
     alert(number);
     const YesOrNo = confirm("맞나요?");
+
+    document.querySelector('input').addEventListener('input',function() {
+      console.log('글자입력');
+    });
+    document.querySelector('button').addEventListener('click', function() {
+      console.log('클릭')
+    });
   </script>
 </body>
 </html>
